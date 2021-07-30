@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,700&display=swap');
+.Heading {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(224, 149, 11);
+    border-radius: 2rem;
+    background-color: rgba(224, 149, 11, 0.432);
+}
