@@ -3,20 +3,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+* {
+    background-color: rgb(122, 152, 179);
+}
+
 .a {
-    background-color: rgba(80, 89, 102, 0.735);
+    /* background-color: rgba(80, 89, 102, 0.735); */
     border-radius: 2rem;
-    font-size: 3rem;
+    font-family: 'Noto Serif', serif;
+    font-size: 5rem;
     text-align: center;
+    text-decoration: overline;
     color: rgb(82, 11, 11);
 }
 
 .shop {
     border-radius: 5rem;
     float: right;
-    padding: 2rem;
+    padding: 0.2rem;
     height: 30%;
     width: 30%;
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+}
+
+.shop:hover {
+    box-shadow: 3px 3px olive, -1em 0 .4em red;
 }
 
 .shop_name {
