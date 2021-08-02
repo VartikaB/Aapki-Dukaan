@@ -5,112 +5,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products</title>
-    <link rel="stylesheet" href="products.css">
+    <title>Shop | Product Page</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="product.css">
 </head>
 
 <body>
-    <div>
-        <div>
-            <header>
-                <h1 class="a">
-                    Aapki Dukaan
-                </h1>
-            </header>
-        </div>
-        <div>
-            <!-- shop description -->
-            <div class="shop_name">
-                <h3> Rajeev Provision Store</h3>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+                <span class="ml-3 text-xl">Aapki Dukaan</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="/index.html" class="mr-5 hover:text-gray-900">Home</a>
+                <a href="about us/about us.html" class="mr-5 hover:text-gray-900">About us</a>
+                <a class="mr-5 hover:text-gray-900">Checkout</a>
+                <a href="product/product.html">
+                </a>
 
-                <div class="description">
-                    <ul type="disc">
-                        <li> <b>Contact No. :</b> &nbsp;&nbsp; 9999999999</li>
-                        <li> <b>Address. :</b> &nbsp;&nbsp;Aligarh,Up</li>
-                        <li> <b>Shop Type :</b> &nbsp;&nbsp;Provision store</li>
-                        <li><b>Owner Name :</b> &nbsp;&nbsp;Rajeev</li>
-                        <li><b>Expected Delivery:</b> &nbsp;&nbsp;24 hours</li>
-                        <li><b>Area Code:</b> &nbsp;&nbsp;101</li>
-                    </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="section">
+        Daily Needs Section
+    </div>
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="images/dairy milk.png">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">Choclate</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Dairy milk </h2>
+                        <p class="mt-1">80 INR</p>
+                        <button class="cart">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
+                        <p class="mt-1">$21.15</p>
+                        <button class="cart">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
+                        <p class="mt-1">$12.00</p>
+                        <button class="cart">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+                        <p class="mt-1">$18.40</p>
+                        <button class="cart">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">The Catalyzer</h2>
+                        <p class="mt-1">$16.00</p>
+                        <button class="cart">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Shooting Stars</h2>
+                        <p class="mt-1">$21.15</p>
+                        <button class="cart">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">Neptune</h2>
+                        <p class="mt-1">$12.00</p>
+                        <button class="cart">Add To Cart</button>
+                    </div>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <a class="block relative h-48 rounded overflow-hidden">
+                        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268">
+                    </a>
+                    <div class="mt-4">
+                        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+                        <h2 class="text-gray-900 title-font text-lg font-medium">The 400 Blows</h2>
+                        <p class="mt-1">$18.40</p>
+                        <button class="cart">Add To Cart</button>
+                    </div>
                 </div>
             </div>
-            <img class="shop" src="images/shop.jpg" align="right">
         </div>
-        <br><br><br><br><br><br><br><br><br>
-        <br><br><br><br><br><br><br><br><br>
-        <div>
-            <h2 class="available">&nbsp;&nbsp;Available Items&nbsp;&nbsp;</h2>
-        </div>
-        <div>
-            <p style="text-align: center; font-size: 1.5rem;">These items are available are available in the above mentioned shop.</p>
-            <br><br><br>
-            <div class="product_description">
-                <ul class="product_description">
-
-
-                    <li>
-                        <h3 class="product_name">Cadbury Dairy Milk</h3>
-                        <table align="center">
-                            <tr>
-                                <td>
-                                    <ul type="square ">
-                                        <li class="product_price"><b>prices:</b> 20 INR</li>
-                                    </ul>
-                                </td>
-                                <td>
-                                    <img src="images/dairy milk.jpg" class="product_image">
-                                </td>
-                                <td>
-                                    <button class="cart">Add To Cart</button>
-                                </td>
-                            </tr>
-                        </table>
-                    </li>
-                    <br>
-                    <li>
-                        <h3 class="product_name">Good day</h3>
-                        <table align="center">
-                            <tr>
-                                <td>
-                                    <ul type="square ">
-                                        <li class="product_price"><b>prices:</b> 10 INR</li>
-                                    </ul>
-                                </td>
-                                <td>
-                                    <img src="images/good day.jpg" class="product_image">
-                                </td>
-                                <td>
-                                    <button class="cart">Add To Cart</button>
-                                </td>
-                            </tr>
-                        </table>
-                    </li>
-                    <br>
-                    <li>
-                        <h3 class="product_name">maggie Noodles </h3>
-                        <table align="center">
-                            <tr>
-                                <td>
-                                    <ul type="square ">
-                                        <li class="product_price"><b>prices:</b> 12 INR</li>
-                                    </ul>
-                                </td>
-                                <td>
-                                    <img src="Images/maggie.jpg" class="product_image" alt="maggie">
-                                </td>
-                                <td>
-                                    <button class="cart">Add To Cart</button>
-                                </td>
-                            </tr>
-                        </table>
-                    </li>
-
-
-                </ul>
-            </div>
-        </div>
-    </div>
-
+    </section>
 </body>
 
 </html>
