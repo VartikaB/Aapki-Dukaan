@@ -8,3 +8,6 @@
     border-radius: 2rem;
     background-color: rgba(224, 149, 11, 0.432);
 }
+body{
+    background-color: hsl(233, 26%, 24%);
+}
